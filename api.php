@@ -5,9 +5,9 @@ class Payoneer
   private $payee_details;
   private $payee_status=0;
   private $debugging;
-    private $PartnerID = '100016790';
-	private $Username = 'ThatFreeThing10';
-	private $Password = 'NAo39uYev';
+    private $PartnerID = '<your partner ID>';
+	private $Username = '<your payoneer username>';
+	private $Password = '<your payoneer password';
 	private $apiURL = 'https://api.payoneer.com/payouts/HttpAPI/API.aspx?';
   
   function __construct(&$db)
